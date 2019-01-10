@@ -9,11 +9,11 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
   s.requires_arc = true
   s.source = {
-    :git => 'https://github.com/OceanLabs/FacebookImagePicker-iOS.git',
+    :git => https://github.com/istepler/FacebookImagePicker-iOS.git',
     :tag => s.version.to_s
   }
   s.source_files = ['FacebookImagePicker/OL*.{h,m}', 'FacebookImagePicker/UIImageView+FacebookFadeIn.{h,m}']
   s.resources = ['FacebookImagePicker/FacebookImagePicker.xcassets', 'FacebookImagePicker/*.xib']
-  s.dependency 'FBSDKCoreKit', '~> 4.11.0'
-  s.dependency 'FBSDKLoginKit', '~> 4.11.0'
+  s.dependency 'FBSDKCoreKit', '= 4.39.0'
+  s.dependency 'FBSDKLoginKit', '= 4.39.0'
 end
